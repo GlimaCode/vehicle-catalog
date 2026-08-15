@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-07-19T06:39:54.810Z",
+  "configuredLimits": {
+    "maximumUploadSize": "512 MB",
+    "maximumCompressedXlsxSize": "512 MB (same ceiling as any upload)",
+    "maximumUncompressedSize": "2 GB",
+    "maximumDecompressionRatio": "200:1",
+    "maximumZipEntries": 2000,
+    "maximumWorksheets": 64,
+    "maximumRows": 1000000,
+    "maximumColumns": 1024,
+    "maximumTotalCells": 50000000,
+    "maximumSharedStringSize": "256 MB",
+    "maximumIndividualCellLength": 32767,
+    "allowedExtensions": [
+      ".csv",
+      ".txt",
+      ".xlsx"
+    ],
+    "macroEnabledWorkbooksAllowed": false
+  },
+  "checks": [
+    {
+      "name": "Macro-enabled workbooks are rejected",
+      "ok": true,
+      "detail": "Upload rejected: Extension \".xlsm\" is not in the allowed list (.csv, .txt, .xlsx); Macro-enabled or legacy binary workbooks are not accepted (.xlsm/.xltm/.xlsb/.xls); Malformed workbook container: Error: Not a readable Z"
+    },
+    {
+      "name": "Extension and signature mismatch is rejected",
+      "ok": true,
+      "detail": "Upload rejected: File claims to be .xlsx but its signature is text"
+    },
+    {
+      "name": "Legacy OLE2 workbooks are rejected",
+      "ok": true,
+      "detail": "Upload rejected: File claims to be .xlsx but its signature is ole2/xls"
+    },
+    {
+      "name": "Disallowed file extensions are rejected",
+      "ok": true,
+      "detail": "Upload rejected: Extension \".exe\" is not in the allowed list (.csv, .txt, .xlsx)"
+    },
+    {
+      "name": "Uploads above the configured maximum are rejected",
+      "ok": true,
+      "detail": "Upload rejected: File is 536870913 bytes, above the configured limit of 536870912 bytes"
+    },
+    {
+      "name": "Path traversal in a filename is neutralized",
+      "ok": true,
+      "detail": "passwd | cmd.exe"
+    },
+    {
+      "name": "Absolute archive paths are neutralized",
+      "ok": true,
+      "detail": "evil.csv | shadow"
+    },
+    {
+      "name": "Reserved Windows device names are refused",
+      "ok": true,
+      "detail": "CON, PRN, AUX, NUL, COM1-9, LPT1-9"
+    },
+    {
+      "name": "Resolved paths cannot escape the application directory",
+      "ok": true,
+      "detail": "Path escapes the approved directory: ../escape.csv"
+    },
+    {
+      "name": "Over-long cells are truncated to the configured maximum",
+      "ok": true,
+      "detail": "33267 -> 32767"
+    },
+    {
+      "name": "File signatures are identified by content, not extension",
+      "ok": true,
+      "detail": "PK -> zip/xlsx, OLE2 -> ole2/xls, otherwise text"
+    },
+    {
+      "name": "The inspector reports findings against the configured limits",
+      "ok": true,
+      "detail": "{\"ok\":false,\"detectedType\":\"zip/xlsx\",\"reasons\":[\"Malformed workbook container: Error: Not a readable ZIP container (no end-of-central-directory)\"],\"warnings\":[],\"entries\":0,\"works"
+    }
+  ],
+  "status": "PASS"
+}

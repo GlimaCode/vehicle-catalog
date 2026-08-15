@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-07-18T12:54:19.626Z",
+  "workingDirectory": "C:\\Users\\Asus\\Car Make Model\\catalog-app\\bench\\backup-restore",
+  "backup": {
+    "path": "C:\\Users\\Asus\\Car Make Model\\catalog-app\\bench\\backup-restore\\backup.db",
+    "sha256": "c2107d741c19d3a49184a8d48aeacd10095ab102caae70072c75e06db48ee139",
+    "sizeMB": 16.3
+  },
+  "projectId": 1,
+  "beforeStats": {
+    "inputRows": 5,
+    "excluded": 0,
+    "exportRows": 5,
+    "reviewRows": 1,
+    "confidence": {
+      "Deterministic Normalization": 5,
+      "Exact Canonical Match": 6,
+      "Conflict": 1,
+      "No Match": 2,
+      "Approved Alias Match": 1
+    },
+    "unmatchedMake": 0,
+    "unmatchedModel": 1,
+    "unmatchedHierarchy": 2,
+    "invalidYear": 1,
+    "changedFields": 6,
+    "changeRecords": 10
+  },
+  "afterStats": {
+    "inputRows": 5,
+    "excluded": 0,
+    "exportRows": 5,
+    "reviewRows": 1,
+    "confidence": {
+      "Deterministic Normalization": 5,
+      "Exact Canonical Match": 6,
+      "Conflict": 1,
+      "No Match": 2,
+      "Approved Alias Match": 1
+    },
+    "unmatchedMake": 0,
+    "unmatchedModel": 1,
+    "unmatchedHierarchy": 2,
+    "invalidYear": 1,
+    "changedFields": 6,
+    "changeRecords": 10
+  },
+  "beforeOutcome": "Review Required",
+  "afterOutcome": "Review Required",
+  "canonicalCounts": {
+    "makes": 76,
+    "models": 1798,
+    "vehicle_hierarchy_values": 390,
+    "vehicle_configuration_values": 6859,
+    "model_years": 15594,
+    "aliases": 206
+  },
+  "checks": [
+    {
+      "name": "Realistic project built (matches, conflict, decisions, batch mapping)",
+      "ok": true,
+      "detail": "rows=5 batchAffected=3 changes=10"
+    },
+    {
+      "name": "Backup created and hashed",
+      "ok": true,
+      "detail": "c2107d741c19d3a4"
+    },
+    {
+      "name": "Restore refuses to run while a job is active",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Working database removed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Project reopens after restore",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Row and review counts match",
+      "ok": true,
+      "detail": "{\"inputRows\":5,\"excluded\":0,\"exportRows\":5,\"reviewRows\":1,\"confidence\":{\"Deterministic Normalization\":5,\"Exact Canonical Match\":6,\"Conflict\":1,\"No Match\":2,\"Approved Alias Match\":1},\"unmatchedMake\":0,\"unmatchedModel\":1,\"unmatchedHierarchy\":2,\"invalidYear\":1,\"changedFields\":6,\"changeRecords\":10} vs {"
+    },
+    {
+      "name": "Outcome matches",
+      "ok": true,
+      "detail": "Review Required vs Review Required"
+    },
+    {
+      "name": "Review decisions and batch mappings preserved",
+      "ok": true,
+      "detail": "changes 10 -> 10, mappings 1"
+    },
+    {
+      "name": "Regenerated CSV export is byte-identical",
+      "ok": true,
+      "detail": "1592 vs 1592 bytes"
+    },
+    {
+      "name": "Regenerated change report matches",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Canonical catalog intact after restore",
+      "ok": true,
+      "detail": "{\"makes\":76,\"models\":1798,\"vehicle_hierarchy_values\":390,\"vehicle_configuration_values\":6859,\"model_years\":15594,\"aliases\":206}"
+    },
+    {
+      "name": "Restored database passes integrity check",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "status": "PASS"
+}

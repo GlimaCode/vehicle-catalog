@@ -1,0 +1,77 @@
+/** Generates the bundled sample title CSV and XLSX files. */
+import ExcelJS from "exceljs";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const OUT = path.join(APP, "samples");
+fs.mkdirSync(OUT, { recursive: true });
+
+const HEADERS = ["Item ID", "SKU", "Title", "Year", "Make", "Model", "Trim",
+  "Material", "Color", "Variation", "Product Type", "Position", "Side", "Quantity"];
+
+const ROWS = [
+  ["A-1001", "SKU-1001",
+    "Brand New High Quality Replacement Seat Cover Seat Cover For Fits 2006 2007 2008 ford F150 XLT Driver & Passenger Bottom Genuine Leather Black Custom Fit",
+    "2006 2007 2008", "ford", "F150", "XLT", "Genuine Leather", "Black",
+    "Bottom Cushion", "Seat Cover", "Bottom", "Driver/Passenger", "2"],
+  ["A-1002", "SKU-1002",
+    "2006-2008 Ford F-150 Driver Bottom Leather Seat Cover Black",
+    "2006-2008", "Ford", "F-150", "", "Leather", "Black", "", "Seat Cover",
+    "Bottom", "Driver", "1"],
+  ["A-1003", "SKU-1003",
+    "Fits 2006, 2008 Chevrolet Silverado 1500 Driver Bottom Vinyl Seat Cover Medium Gray Replacement",
+    "2006, 2008", "Chevrolet", "Silverado 1500", "", "Vinyl", "Medium Gray", "",
+    "Seat Cover", "Bottom", "Driver", "1"],
+  ["A-1004", "SKU-1004",
+    "Replacement 2015 to 2020 Mercedes Benz Sprinter Passenger Bottom Genuine Leather Seat Cover Parchment Tan With Armrest Premium Quality",
+    "2015 to 2020", "Mercedes Benz", "Sprinter", "", "Genuine Leather",
+    "Parchment Tan", "With Armrest", "Seat Cover", "Bottom", "Passenger", "1"],
+  ["A-1005", "SKU-1005",
+    "2012 Ford Escalade Driver Bottom Leather Seat Cover Black",
+    "2012", "Ford", "Escalade", "", "Leather", "Black", "", "Seat Cover",
+    "Bottom", "Driver", "1"],
+  ["A-1006", "SKU-1006",
+    "For Fits 2019 2020 2021 Toyota Camry SE Front Left & Right Cloth Seat Cover Dark Gray Brand New",
+    "2019 2020 2021", "Toyota", "Camry", "SE", "Cloth", "Dark Gray", "",
+    "Seat Cover", "Front", "Left & Right", "2"],
+  ["A-1007", "SKU-1007",
+    "2018-2022 Honda Accord 2nd Row Bottom Cloth Seat Cover Beige",
+    "2018-2022", "Honda", "Accord", "", "Cloth", "Beige", "2nd Row",
+    "Seat Cover", "2nd Row", "", "1"],
+  ["A-1008", "SKU-1008",
+    "Premium Quality Replacement Upholstery Upholstery For 2010 2011 2012 2013 Jeep Wrangler Rear Bench Bottom Genuine Leather Seat Cover Dark Saddle Brown Custom Fit",
+    "2010 2011 2012 2013", "Jeep", "Wrangler", "", "Genuine Leather",
+    "Dark Saddle Brown", "Rear Bench", "Seat Cover", "Rear", "", "1"],
+  ["A-1009", "SKU-1009",
+    "=cmd|' /C calc'!A0 2020 Ford Explorer Driver Bottom Leather Seat Cover Black",
+    "2020", "Ford", "Explorer", "", "Leather", "Black", "", "Seat Cover",
+    "Bottom", "Driver", "1"],
+  ["A-1010", "SKU-1010",
+    "2014-2018 Ram 1500 Driver Bottom Vinyl Seat Cover Light Gray",
+    "2014-2018", "Ram", "1500", "", "Vinyl", "Light Gray", "", "Seat Cover",
+    "Bottom", "Driver", "1"],
+];
+
+const esc = (v) => (/[",\n]/.test(v) ? `"${String(v).replace(/"/g, '""')}"` : v);
+fs.writeFileSync(path.join(OUT, "sample_titles.csv"),
+  [HEADERS, ...ROWS].map((r) => r.map(esc).join(",")).join("\r\n") + "\r\n", "utf-8");
+
+const wb = new ExcelJS.Workbook();
+const ws = wb.addWorksheet("Listings");
+ws.addRow(HEADERS);
+ws.getRow(1).font = { bold: true };
+for (const r of ROWS) {
+  const row = ws.addRow(r);
+  // the injection payload ships as an explicit text cell, never a live formula
+  if (String(r[2]).startsWith("=")) {
+    row.getCell(3).value = String(r[2]);
+    row.getCell(3).numFmt = "@";
+  }
+}
+ws.getColumn(3).width = 80;
+await wb.xlsx.writeFile(path.join(OUT, "sample_titles.xlsx"));
+
+console.log(`sample_titles.csv  ${fs.statSync(path.join(OUT, "sample_titles.csv")).size} B`);
+console.log(`sample_titles.xlsx ${fs.statSync(path.join(OUT, "sample_titles.xlsx")).size} B`);

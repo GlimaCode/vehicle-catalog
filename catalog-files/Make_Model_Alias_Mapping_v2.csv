@@ -1,0 +1,217 @@
+Raw or Alias Make,Raw or Alias Model,Canonical Make,Canonical Model,Alias Type,Source File or Source Name,Confidence,Notes
+BMW,3 Series E46,BMW,3 Series,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,E46 generation (1999-2006) of the 3 Series.
+BMW,323i,BMW,3 Series,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Buick,Rainier (CXL Plus) (1st Generation),Buick,Rainier,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Possible Duplicate).
+Cadillac,Escalade Platinum,Cadillac,Escalade,Model and Trim Combined,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Chevrolet,Avalanche LTZ,Chevrolet,Avalanche,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Chevrolet,Camaro Z28,Chevrolet,Camaro,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Chevrolet,Corvette C5,Chevrolet,Corvette,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Chevrolet,Corvette C6,Chevrolet,Corvette,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Chevrolet,Escalade,Cadillac,Escalade,Cross-Brand Conflict,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Escalade is a Cadillac model; it appears under Cadillac in the same source file. Documented cross-brand conflict from the Model review; not silently normalized - mapping retained here for traceability.
+Chevrolet,Express Cargo Van,Chevrolet,Express,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Chevrolet,GMC Sierra,GMC,Sierra 1500; Sierra 2500; Sierra 3500,Cross-Brand Conflict,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,"Sierra is a GMC model (the raw value even carries the GMC prefix); size not specified in the source, so the mapping fans out to the Sierra size range. Documented cross-brand conflict from the Model review."
+Chevrolet,Silverado,Chevrolet,Silverado 1500; Silverado 2500; Silverado 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Series-level source value.
+Chevrolet,Silverado High Country,Chevrolet,Silverado 1500,Model and Trim Combined,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,High Country trim; offered across sizes but most commonly the 1500 - size not stated in source.
+Chevrolet,Trailblazer,Chevrolet,TrailBlazer,Capitalization Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Differs from canonical only by capitalization.
+Chrysler,Town & Country (RS),Chrysler,Town & Country,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Possible Duplicate).
+Dodge,1500 2500 3500 Promaster,Ram,ProMaster,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,ProMaster vans are sold under the Ram brand (2014+); size designations 1500/2500/3500 fold into the ProMaster line.
+Dodge,1500 ST HEMI,Dodge,Ram 1500,Model and Trim Combined,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Ram 1500 with ST trim and HEMI engine descriptor.
+Dodge,Dakota Laramie,Dodge,Dakota,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Dodge,Dakota SLT BigHorn,Dodge,Dakota,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Spacing).
+Dodge,Dodge Ram 1500 2500 3500 4500 5500 Laramie,Dodge,Ram 1500; Ram 2500; Ram 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped Dodge-era Ram sizes; 4500/5500 are chassis-cab (excluded class) and are documented in the grouped-relationship file only.
+Dodge,Dodge Ram Laramie Limited,Dodge,Ram 1500; Ram 2500; Ram 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Duplicate of 'Ram Laramie Limited' with redundant make prefix; fans out to the Ram size range.
+Dodge,Durango Limited,Dodge,Durango,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Dodge,Durango RT,Dodge,Durango,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Dodge,Ram,Dodge,Ram 1500; Ram 2500; Ram 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Series-level source value covering the Dodge-era Ram pickup range.
+Dodge,Ram 1500 2500 3500 4500 5500 SLT,Dodge,Ram 1500; Ram 2500; Ram 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped Dodge-era Ram sizes with SLT trim; 4500/5500 chassis-cab excluded from the master catalog.
+Dodge,Ram 1500 2500 3500 SLT,Dodge,Ram 1500; Ram 2500; Ram 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped Dodge-era Ram sizes; SLT trim stripped.
+Dodge,Ram 1500 2500 Laramie,Dodge,Ram 1500; Ram 2500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped Dodge-era Ram sizes; Laramie trim stripped.
+Dodge,Ram 1500 Laramie,Dodge,Ram 1500,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Dodge,Ram 1500 Regular Laramie,Dodge,Ram 1500,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Dodge,Ram 1500 ST,Dodge,Ram 1500,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Dodge,Ram 1500 ST Laramie,Dodge,Ram 1500,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Dodge,Ram 2500 3500,Dodge,Ram 2500; Ram 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped Dodge-era Ram sizes.
+Dodge,Ram 2500 Laramie,Dodge,Ram 2500,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Dodge,Ram 2500 ST,Dodge,Ram 2500,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Dodge,Ram 3500 Laramie,Dodge,Ram 3500,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Dodge,Ram Laramie Limited,Dodge,Ram 1500; Ram 2500; Ram 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Trim-only Ram value (Laramie Limited); fans out to the Ram size range.
+Dodge,Ram Promaster,Ram,ProMaster,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,"Sold under the Ram brand (2014+), colloquially 'Dodge Ram ProMaster'."
+Dodge,Ram PromasterCity,Ram,ProMaster City,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Sold under the Ram brand (2015+); missing space in source.
+Dodge,Ram SLT,Dodge,Ram 1500; Ram 2500; Ram 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Trim-only Ram value; fans out to the Dodge-era Ram size range.
+Dodge,Ram ST,Dodge,Ram 1500; Ram 2500; Ram 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Trim-only Ram value; fans out to the Dodge-era Ram size range.
+ford,Bronco Eddie Bauer,Ford,Bronco,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Bronco XLT,Ford,Bronco,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,E-Series,Ford,Econoline,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,E-Series is the later official name of the Econoline van line.
+Ford,E150,Ford,E-150,Punctuation Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,E150 Econoline,Ford,E-150,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,edge,Ford,Edge,Capitalization Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Differs from canonical only by capitalization.
+Ford,Excrision,Ford,Excursion,Spelling Correction,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Misspelling of Excursion.
+Ford,Excursion Eddie Bauer,Ford,Excursion,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Excursion XLT,Ford,Excursion,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+ford,Expedition Eddie Bauer,Ford,Expedition,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+ford,Expedition King Ranch,Ford,Expedition,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+ford,Expedition Limited,Ford,Expedition,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Expedition XLT,Ford,Expedition,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Explorer Limited,Ford,Explorer,Model and Trim Combined,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Explorer XLT,Ford,Explorer,Model and Trim Combined,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+ford,F 150,Ford,F-150,Punctuation Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Ford,F-150 Harley-Davidson,Ford,F-150,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+ford,F-150 King Ranch,Ford,F-150,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+ford,F-150 Lariat,Ford,F-150,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,F-150 Platinum,Ford,F-150,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+ford,F-150 Raptor,Ford,F-150,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,F-150 STX XL,Ford,F-150,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,"F-250
+Lariat",Ford,F-250,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Spacing).
+ford,F-250 F-350 King Ranch,Ford,F-250; F-350,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped sizes; King Ranch trim stripped.
+Ford,F-250 F-350 Lariat,Ford,F-250; F-350,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped sizes; Lariat trim stripped.
+ford,F-250 F-350 Lariat Outlaw,Ford,F-250; F-350,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped sizes; trim package stripped.
+Ford,F-250 XL,Ford,F-250,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,F-350 XLT,Ford,F-350,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,F-Series,Ford,F-150; F-250; F-350,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Series-level source value for the F-Series pickup range.
+Ford,F150 King Ranch,Ford,F-150,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Ford,F150 Lariat,Ford,F-150,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Ford,F150 XLT,Ford,F-150,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+ford,F250,Ford,F-250,Punctuation Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Ford,F250 Harley-Davidson,Ford,F-250,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Ford,F250 XL XLT,Ford,F-250,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Ford,F250 XLT,Ford,F-250,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Ford,Ford F-250 XL Work Truck,Ford,F-250,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Naming).
+Ford,fusion,Ford,Fusion,Capitalization Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Differs from canonical only by capitalization.
+Ford,Fusion Titanium,Ford,Fusion,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Lariat F250,Ford,F-250,Model and Trim Combined,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Reversed word order; Lariat is a trim.
+Ford,mustang,Ford,Mustang,Capitalization Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Differs from canonical only by capitalization.
+ford,Mustang GT,Ford,Mustang,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Mustang GT Convertible,Ford,Mustang,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Mustang GT Premium,Ford,Mustang,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Mustang V6,Ford,Mustang,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Ranger Lariat,Ford,Ranger,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Ranger XLT,Ford,Ranger,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Ford,Raptor,Ford,F-150,Model and Trim Combined,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Raptor is the F-150 high-performance variant.
+GMC,Acadia Denali,GMC,Acadia,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+GMC,Acadia SLT,GMC,Acadia,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+GMC,Canyon All-Terrain,GMC,Canyon,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+GMC,Canyon SLT,GMC,Canyon,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+GMC,Sierra,GMC,Sierra 1500; Sierra 2500; Sierra 3500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Series-level source value.
+GMC,Sierra Denali,GMC,Sierra 1500,Model and Trim Combined,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Denali trim; size not stated - most commonly the 1500.
+GMC,Topkick,GMC,TopKick,Capitalization Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Differs from canonical only by capitalization.
+GMC,Yukon 1500 2500,GMC,Yukon,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,1500/2500 GVWR designations of the Yukon line.
+Honda,Accord EXL,Honda,Accord,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Honda,Pilot EXL,Honda,Pilot,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Honda,Ridgline,Honda,Ridgeline,Spelling Correction,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Misspelling of Ridgeline.
+Hyundai,Santa Fe (3rd Generation),Hyundai,Santa Fe,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Possible Duplicate).
+Infiniti,FX,Infiniti,FX35; FX37; FX45; FX50,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Series-level source value; fans out to US FX designations.
+Infiniti,FX35/FX45,Infiniti,FX35; FX45,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped designations.
+Infiniti,G35 Coupe,Infiniti,G35,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Infiniti,M35 M45,Infiniti,M35; M45,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped designations.
+Infiniti,M37 M56,Infiniti,M37; M56,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped designations.
+Infiniti,QX,Infiniti,QX30; QX4; QX50; QX55; QX56; QX60; QX65; QX70; QX80,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Series-level source value; fans out to US QX designations.
+Jaguar,X Type,Jaguar,X-Type,Punctuation Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Jaguar,XF X250,Jaguar,XF,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Jaguar,XK80,Jaguar,XK8,Spelling Correction,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,No XK80 exists in the Jaguar lineup; typo for XK8.
+Jaguar,XKR/XK8,Jaguar,XK8; XKR,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped compatibility value.
+Jeep,Cherokee Trailhawk,Jeep,Cherokee,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Jeep,Commander Limited,Jeep,Commander,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Jeep,Commander Overland,Jeep,Commander,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Jeep,Grand Cherokee Limited,Jeep,Grand Cherokee,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Jeep,Grand Cherokee Overland,Jeep,Grand Cherokee,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Jeep,Jeep Wrangler TJ,Jeep,Wrangler,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Possible Duplicate).
+Jeep,Liberty Limited,Jeep,Liberty,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Jeep,Wrangler Rubicon,Jeep,Wrangler,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Jeep,Wrangler Sahara,Jeep,Wrangler,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Jeep,Wrangler TJ,Jeep,Wrangler,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Jeep,Wrangler X,Jeep,Wrangler,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Range,Rover Sport,Land Rover,Range Rover Sport,Source Data Error,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Make split mid-name during data entry ('Range' + 'Rover Sport'); approved as Land Rover / Range Rover Sport in the Make catalog stage.
+Lexus,ES,Lexus,ES 250; ES 300; ES 300h; ES 330; ES 350; ES 350e; ES 350h; ES 500e,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Series-level source value; fans out to US ES designations.
+Lexus,ES350,Lexus,ES 350,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,GS300,Lexus,GS 300,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,GS300 GS400 GS430,Lexus,GS 300; GS 400; GS 430,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped designations.
+Lexus,GS350,Lexus,GS 350,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,GS350 F-Sport,Lexus,GS 350,Model and Trim Combined,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,GX,Lexus,GX 460; GX 470; GX 550,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Series-level source value.
+Lexus,GX460,Lexus,GX 460,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,GX470,Lexus,GX 470,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,IS,Lexus,IS 200t; IS 250; IS 250C; IS 300; IS 350; IS 350C; IS 500,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Series-level source value.
+Lexus,IS250,Lexus,IS 250,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,IS250C IS350C,Lexus,IS 250C; IS 350C,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped convertible designations.
+Lexus,IS300,Lexus,IS 300,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,LS430,Lexus,LS 430,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,LS460,Lexus,LS 460,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,LX450,Lexus,LX 450,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,LX470,Lexus,LX 470,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,LX570,Lexus,LX 570,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,RX,Lexus,RX 300; RX 330; RX 350; RX 350L; RX 350h; RX 400h; RX 450h; RX 450h+; RX 450hL; RX 500h,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Series-level source value.
+Lexus,RX300,Lexus,RX 300,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,RX330,Lexus,RX 330,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,RX330 RX350 RX400h,Lexus,RX 330; RX 350; RX 400h,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped designations.
+Lexus,RX350,Lexus,RX 350,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,RX350  RX450,Lexus,RX 350; RX 450h,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped designations; the US RX450 is the RX 450h hybrid.
+Lexus,RX450,Lexus,RX 450h,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,The US-market RX450 is the RX 450h hybrid.
+Lexus,SC400 Coupe,Lexus,SC 400,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lexus,SC430,Lexus,SC 430,Spacing Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Lincoln,Mark 8,Lincoln,Mark VIII,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Naming).
+Lincoln,Town,Lincoln,Town Car,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Truncated 'Town Car'.
+Lincoln,VIII Coupe,Lincoln,Mark VIII,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Truncated 'Mark VIII' coupe.
+Mazda,3,Mazda,Mazda3,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Official name 'Mazda3'.
+Mazda,6,Mazda,Mazda6,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Official name 'Mazda6'.
+Mercedes Benz,C230 c320 C350,Mercedes-Benz,C-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,C-Class designations.
+Mercedes Benz,C280,Mercedes-Benz,C-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,C300 Coupe,Mercedes-Benz,C-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,C350,Mercedes-Benz,C-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,C350 Coupe,Mercedes-Benz,C-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,C43,Mercedes-Benz,C-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,CLA 250,Mercedes-Benz,CLA-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Spacing).
+Mercedes Benz,CLA200,Mercedes-Benz,CLA-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,CLA250 CLA45 AMG,Mercedes-Benz,CLA-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,CLA-Class designations.
+Mercedes Benz,CLK Class,Mercedes-Benz,CLK-Class,Punctuation Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Mercedes Benz,E200 E250 E350,Mercedes-Benz,E-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,E-Class designations; E200 was not a US designation but the E-Class itself is fully US-verified.
+Mercedes Benz,E300,Mercedes-Benz,E-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,E300 E400,Mercedes-Benz,E-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,E-Class designations.
+Mercedes Benz,E350,Mercedes-Benz,E-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,E350 Coupe,Mercedes-Benz,E-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,E400,Mercedes-Benz,E-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,E550 E350,Mercedes-Benz,E-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,E-Class designations.
+Mercedes Benz,GL Class,Mercedes-Benz,GL-Class,Punctuation Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Mercedes Benz,GL350 GL450,Mercedes-Benz,GL-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,GL-Class designations.
+Mercedes Benz,GL450,Mercedes-Benz,GL-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,GLA250 X156,Mercedes-Benz,GLA-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,GLC,Mercedes-Benz,GLC-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,GLC Class,Mercedes-Benz,GLC-Class,Punctuation Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Normalized Punctuation).
+Mercedes Benz,GLE330d GLE350 GLE400 GLE43AMG,Mercedes-Benz,GLE-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,Medium,Grouped designations resolve to the GLE-Class; 'GLE330d' is not a known US variant (GLE300d/GLE350d exist) - flagged separately in the validation review file.
+Mercedes Benz,GLE350 450,Mercedes-Benz,GLE-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,GLE-Class designations.
+Mercedes Benz,GLS350d GLS450,Mercedes-Benz,GLS-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,GLS-Class designations.
+Mercedes Benz,ML,Mercedes-Benz,M-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,ML350,Mercedes-Benz,M-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,R230,Mercedes-Benz,SL-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,R230 is the 2001-2011 SL-Class chassis code.
+Mercedes Benz,R230 SL500,Mercedes-Benz,SL-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,R230 is the SL-Class chassis code.
+Mercedes Benz,R350,Mercedes-Benz,R-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,SL300 SL320 SL500 SL600,Mercedes-Benz,SL-Class,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,SL-Class designations; SL300 was not a US designation but the SL-Class itself is fully US-verified.
+Mercedes Benz,SL500,Mercedes-Benz,SL-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,SL55 AMG,Mercedes-Benz,SL-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,SLK,Mercedes-Benz,SLK-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Mercedes Benz,W220,Mercedes-Benz,S-Class,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,W220 is the 1998-2005 S-Class chassis code.
+Nissan,Armada Platinum,Nissan,Armada,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Nissan,Maxima GLE,Nissan,Maxima,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Nissan,NV1500,Nissan,NV Cargo,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Nissan,Pathfinder Platinum,Nissan,Pathfinder,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Pontiac,Firebird Trans,Pontiac,Firebird,Model and Trim Combined,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,"Truncated 'Trans Am', the Firebird performance variant."
+Suzuki,XL7,Suzuki,XL-7,Punctuation Variant,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Official punctuation 'XL-7' (2001-2006); 2007-2009 dropped the hyphen - single canonical row retained.
+Toyota,4Runner Limited,Toyota,4Runner,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Toyota,Camry LE,Toyota,Camry,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Toyota,Solara,Toyota,Camry Solara,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Toyota,Tundra Sequoia,Toyota,Tundra; Sequoia,Multi-Model Compatibility Group,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Grouped platform-mates; both exist as standalone models.
+Volkswagen,Golf R32,Volkswagen,Golf,Other Verified Alias,USF GENERATOR - MakeModel.csv via Model_Review.csv,High,Normalized during the Model review stage (status: Approved).
+Audi,A4 S Line,Audi,A4,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Audi,A4 S-Line,Audi,A4,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Audi,A5 Sportback S Line,Audi,A5 Sportback,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Audi,A5 Sportback S-Line,Audi,A5 Sportback,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Audi,Q3 S Line,Audi,Q3,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Audi,Q3 S-Line,Audi,Q3,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Audi,Q5 S Line,Audi,Q5,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Audi,Q5 S-Line,Audi,Q5,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Audi,Q5 Sportback S Line,Audi,Q5 Sportback,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Audi,Q5 Sportback S-Line,Audi,Q5 Sportback,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Hyundai,Genesis R Spec,Hyundai,Genesis,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Hyundai,Genesis R-Spec,Hyundai,Genesis,Model and Trim Combined,V2 merge audit,High,Reclassified in V2: trim/package value removed from canonical Models; maps to its base model. Candidate recorded in the sub-model review pipeline.
+Lamborghini,144 - Diablo,Lamborghini,Diablo,Other Verified Alias,V2 merge audit,High,Internal project-code form of the official model name.
+Lamborghini,144 Diablo,Lamborghini,Diablo,Other Verified Alias,V2 merge audit,High,Internal project-code form of the official model name.

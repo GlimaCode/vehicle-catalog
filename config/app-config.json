@@ -1,0 +1,57 @@
+{
+  "_comment": "Documented runtime policy for the US Vehicle Catalog application. See SECURITY_GUIDE.md and DATA_RETENTION_GUIDE.md. Delete this file to fall back to built-in defaults.",
+  "server": {
+    "bindAddress": "127.0.0.1",
+    "port": 4310,
+    "allowLanAccess": false,
+    "authToken": "",
+    "allowedOrigins": []
+  },
+  "upload": {
+    "maxFileBytes": 536870912,
+    "allowedExtensions": [
+      ".csv",
+      ".txt",
+      ".xlsx"
+    ],
+    "allowMacroEnabledWorkbooks": false
+  },
+  "workbook": {
+    "maxZipEntries": 2000,
+    "maxTotalUncompressedBytes": 2147483648,
+    "maxCompressionRatio": 200,
+    "maxWorksheets": 64,
+    "maxRows": 1000000,
+    "maxColumns": 1024,
+    "maxCells": 50000000,
+    "maxSharedStringBytes": 268435456,
+    "maxCellLength": 32767
+  },
+  "exportSecurity": {
+    "formulaInjectionProtection": true,
+    "strategy": "prefix-apostrophe",
+    "trustedHyperlinkFields": [
+      "Primary Source URL",
+      "Secondary Source URL",
+      "Source URL",
+      "Source",
+      "Primary Source",
+      "Secondary Source"
+    ]
+  },
+  "retention": {
+    "deleteUploadAfterImport": false,
+    "deleteTemporaryFilesAfterExport": true,
+    "autoPurgeProjectsAfterDays": 0,
+    "keepAuditMetadataOnDelete": true
+  },
+  "processing": {
+    "batchSize": 1000,
+    "maxConcurrentProjects": 4
+  },
+  "title": {
+    "maxCharacters": 80,
+    "defaultExportMode": "audit",
+    "preferFullWords": true
+  }
+}

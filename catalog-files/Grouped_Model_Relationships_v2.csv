@@ -1,0 +1,120 @@
+Raw Make,Raw Grouped Model Value,Canonical Make,Canonical Model,Relationship Status,Evidence,Notes
+Chevrolet,GMC Sierra,GMC,Sierra 1500,Verified,EPA/NHTSA government records for the canonical model,"Sierra is a GMC model (the raw value even carries the GMC prefix); size not specified in the source, so the mapping fans out to the Sierra size range. Documented cross-brand conflict from the Model review."
+Chevrolet,GMC Sierra,GMC,Sierra 2500,Verified,EPA/NHTSA government records for the canonical model,"Sierra is a GMC model (the raw value even carries the GMC prefix); size not specified in the source, so the mapping fans out to the Sierra size range. Documented cross-brand conflict from the Model review."
+Chevrolet,GMC Sierra,GMC,Sierra 3500,Verified,EPA/NHTSA government records for the canonical model,"Sierra is a GMC model (the raw value even carries the GMC prefix); size not specified in the source, so the mapping fans out to the Sierra size range. Documented cross-brand conflict from the Model review."
+Chevrolet,Silverado,Chevrolet,Silverado 1500,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Chevrolet,Silverado,Chevrolet,Silverado 2500,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Chevrolet,Silverado,Chevrolet,Silverado 3500,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Dodge,1500 2500 3500 Promaster,Ram,ProMaster,Verified,EPA/NHTSA government records for the canonical model,ProMaster vans are sold under the Ram brand (2014+); size designations 1500/2500/3500 fold into the ProMaster line.
+Dodge,Dodge Ram 1500 2500 3500 4500 5500 Laramie,Dodge,Ram 1500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes; 4500/5500 are chassis-cab (excluded class) and are documented in the grouped-relationship file only.
+Dodge,Dodge Ram 1500 2500 3500 4500 5500 Laramie,Dodge,Ram 2500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes; 4500/5500 are chassis-cab (excluded class) and are documented in the grouped-relationship file only.
+Dodge,Dodge Ram 1500 2500 3500 4500 5500 Laramie,Dodge,Ram 3500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes; 4500/5500 are chassis-cab (excluded class) and are documented in the grouped-relationship file only.
+Dodge,Dodge Ram Laramie Limited,Dodge,Ram 1500,Verified,EPA/NHTSA government records for the canonical model,Duplicate of 'Ram Laramie Limited' with redundant make prefix; fans out to the Ram size range.
+Dodge,Dodge Ram Laramie Limited,Dodge,Ram 2500,Verified,EPA/NHTSA government records for the canonical model,Duplicate of 'Ram Laramie Limited' with redundant make prefix; fans out to the Ram size range.
+Dodge,Dodge Ram Laramie Limited,Dodge,Ram 3500,Verified,EPA/NHTSA government records for the canonical model,Duplicate of 'Ram Laramie Limited' with redundant make prefix; fans out to the Ram size range.
+Dodge,Ram,Dodge,Ram 1500,Verified,EPA/NHTSA government records for the canonical model,Series-level source value covering the Dodge-era Ram pickup range.
+Dodge,Ram,Dodge,Ram 2500,Verified,EPA/NHTSA government records for the canonical model,Series-level source value covering the Dodge-era Ram pickup range.
+Dodge,Ram,Dodge,Ram 3500,Verified,EPA/NHTSA government records for the canonical model,Series-level source value covering the Dodge-era Ram pickup range.
+Dodge,Ram 1500 2500 3500 4500 5500 SLT,Dodge,Ram 1500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes with SLT trim; 4500/5500 chassis-cab excluded from the master catalog.
+Dodge,Ram 1500 2500 3500 4500 5500 SLT,Dodge,Ram 2500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes with SLT trim; 4500/5500 chassis-cab excluded from the master catalog.
+Dodge,Ram 1500 2500 3500 4500 5500 SLT,Dodge,Ram 3500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes with SLT trim; 4500/5500 chassis-cab excluded from the master catalog.
+Dodge,Ram 1500 2500 3500 SLT,Dodge,Ram 1500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes; SLT trim stripped.
+Dodge,Ram 1500 2500 3500 SLT,Dodge,Ram 2500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes; SLT trim stripped.
+Dodge,Ram 1500 2500 3500 SLT,Dodge,Ram 3500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes; SLT trim stripped.
+Dodge,Ram 1500 2500 Laramie,Dodge,Ram 1500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes; Laramie trim stripped.
+Dodge,Ram 1500 2500 Laramie,Dodge,Ram 2500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes; Laramie trim stripped.
+Dodge,Ram 2500 3500,Dodge,Ram 2500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes.
+Dodge,Ram 2500 3500,Dodge,Ram 3500,Verified,EPA/NHTSA government records for the canonical model,Grouped Dodge-era Ram sizes.
+Dodge,Ram Laramie Limited,Dodge,Ram 1500,Verified,EPA/NHTSA government records for the canonical model,Trim-only Ram value (Laramie Limited); fans out to the Ram size range.
+Dodge,Ram Laramie Limited,Dodge,Ram 2500,Verified,EPA/NHTSA government records for the canonical model,Trim-only Ram value (Laramie Limited); fans out to the Ram size range.
+Dodge,Ram Laramie Limited,Dodge,Ram 3500,Verified,EPA/NHTSA government records for the canonical model,Trim-only Ram value (Laramie Limited); fans out to the Ram size range.
+Dodge,Ram SLT,Dodge,Ram 1500,Verified,EPA/NHTSA government records for the canonical model,Trim-only Ram value; fans out to the Dodge-era Ram size range.
+Dodge,Ram SLT,Dodge,Ram 2500,Verified,EPA/NHTSA government records for the canonical model,Trim-only Ram value; fans out to the Dodge-era Ram size range.
+Dodge,Ram SLT,Dodge,Ram 3500,Verified,EPA/NHTSA government records for the canonical model,Trim-only Ram value; fans out to the Dodge-era Ram size range.
+Dodge,Ram ST,Dodge,Ram 1500,Verified,EPA/NHTSA government records for the canonical model,Trim-only Ram value; fans out to the Dodge-era Ram size range.
+Dodge,Ram ST,Dodge,Ram 2500,Verified,EPA/NHTSA government records for the canonical model,Trim-only Ram value; fans out to the Dodge-era Ram size range.
+Dodge,Ram ST,Dodge,Ram 3500,Verified,EPA/NHTSA government records for the canonical model,Trim-only Ram value; fans out to the Dodge-era Ram size range.
+ford,F-250 F-350 King Ranch,Ford,F-250,Verified,EPA/NHTSA government records for the canonical model,Grouped sizes; King Ranch trim stripped.
+ford,F-250 F-350 King Ranch,Ford,F-350,Verified,EPA/NHTSA government records for the canonical model,Grouped sizes; King Ranch trim stripped.
+Ford,F-250 F-350 Lariat,Ford,F-250,Verified,EPA/NHTSA government records for the canonical model,Grouped sizes; Lariat trim stripped.
+Ford,F-250 F-350 Lariat,Ford,F-350,Verified,EPA/NHTSA government records for the canonical model,Grouped sizes; Lariat trim stripped.
+ford,F-250 F-350 Lariat Outlaw,Ford,F-250,Verified,EPA/NHTSA government records for the canonical model,Grouped sizes; trim package stripped.
+ford,F-250 F-350 Lariat Outlaw,Ford,F-350,Verified,EPA/NHTSA government records for the canonical model,Grouped sizes; trim package stripped.
+Ford,F-Series,Ford,F-150,Verified,EPA/NHTSA government records for the canonical model,Series-level source value for the F-Series pickup range.
+Ford,F-Series,Ford,F-250,Verified,EPA/NHTSA government records for the canonical model,Series-level source value for the F-Series pickup range.
+Ford,F-Series,Ford,F-350,Verified,EPA/NHTSA government records for the canonical model,Series-level source value for the F-Series pickup range.
+GMC,Sierra,GMC,Sierra 1500,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+GMC,Sierra,GMC,Sierra 2500,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+GMC,Sierra,GMC,Sierra 3500,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Infiniti,FX,Infiniti,FX35,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US FX designations.
+Infiniti,FX,Infiniti,FX37,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US FX designations.
+Infiniti,FX,Infiniti,FX45,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US FX designations.
+Infiniti,FX,Infiniti,FX50,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US FX designations.
+Infiniti,FX35/FX45,Infiniti,FX35,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Infiniti,FX35/FX45,Infiniti,FX45,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Infiniti,M35 M45,Infiniti,M35,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Infiniti,M35 M45,Infiniti,M45,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Infiniti,M37 M56,Infiniti,M37,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Infiniti,M37 M56,Infiniti,M56,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Infiniti,QX,Infiniti,QX30,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US QX designations.
+Infiniti,QX,Infiniti,QX4,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US QX designations.
+Infiniti,QX,Infiniti,QX50,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US QX designations.
+Infiniti,QX,Infiniti,QX55,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US QX designations.
+Infiniti,QX,Infiniti,QX56,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US QX designations.
+Infiniti,QX,Infiniti,QX60,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US QX designations.
+Infiniti,QX,Infiniti,QX65,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US QX designations.
+Infiniti,QX,Infiniti,QX70,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US QX designations.
+Infiniti,QX,Infiniti,QX80,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US QX designations.
+Jaguar,XKR/XK8,Jaguar,XK8,Verified,EPA/NHTSA government records for the canonical model,Grouped compatibility value.
+Jaguar,XKR/XK8,Jaguar,XKR,Verified,EPA/NHTSA government records for the canonical model,Grouped compatibility value.
+Lexus,ES,Lexus,ES 250,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US ES designations.
+Lexus,ES,Lexus,ES 300,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US ES designations.
+Lexus,ES,Lexus,ES 300h,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US ES designations.
+Lexus,ES,Lexus,ES 330,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US ES designations.
+Lexus,ES,Lexus,ES 350,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US ES designations.
+Lexus,ES,Lexus,ES 350e,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US ES designations.
+Lexus,ES,Lexus,ES 350h,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US ES designations.
+Lexus,ES,Lexus,ES 500e,Verified,EPA/NHTSA government records for the canonical model,Series-level source value; fans out to US ES designations.
+Lexus,GS300 GS400 GS430,Lexus,GS 300,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Lexus,GS300 GS400 GS430,Lexus,GS 400,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Lexus,GS300 GS400 GS430,Lexus,GS 430,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Lexus,GX,Lexus,GX 460,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,GX,Lexus,GX 470,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,GX,Lexus,GX 550,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,IS,Lexus,IS 200t,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,IS,Lexus,IS 250,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,IS,Lexus,IS 250C,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,IS,Lexus,IS 300,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,IS,Lexus,IS 350,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,IS,Lexus,IS 350C,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,IS,Lexus,IS 500,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,IS250C IS350C,Lexus,IS 250C,Verified,EPA/NHTSA government records for the canonical model,Grouped convertible designations.
+Lexus,IS250C IS350C,Lexus,IS 350C,Verified,EPA/NHTSA government records for the canonical model,Grouped convertible designations.
+Lexus,RX,Lexus,RX 300,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,RX,Lexus,RX 330,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,RX,Lexus,RX 350,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,RX,Lexus,RX 350L,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,RX,Lexus,RX 350h,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,RX,Lexus,RX 400h,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,RX,Lexus,RX 450h,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,RX,Lexus,RX 450h+,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,RX,Lexus,RX 450hL,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,RX,Lexus,RX 500h,Verified,EPA/NHTSA government records for the canonical model,Series-level source value.
+Lexus,RX330 RX350 RX400h,Lexus,RX 330,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Lexus,RX330 RX350 RX400h,Lexus,RX 350,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Lexus,RX330 RX350 RX400h,Lexus,RX 400h,Verified,EPA/NHTSA government records for the canonical model,Grouped designations.
+Lexus,RX350  RX450,Lexus,RX 350,Verified,EPA/NHTSA government records for the canonical model,Grouped designations; the US RX450 is the RX 450h hybrid.
+Lexus,RX350  RX450,Lexus,RX 450h,Verified,EPA/NHTSA government records for the canonical model,Grouped designations; the US RX450 is the RX 450h hybrid.
+Mercedes Benz,C230 c320 C350,Mercedes-Benz,C-Class,Verified,EPA/NHTSA government records for the canonical model,C-Class designations.
+Mercedes Benz,CLA250 CLA45 AMG,Mercedes-Benz,CLA-Class,Verified,EPA/NHTSA government records for the canonical model,CLA-Class designations.
+Mercedes Benz,E200 E250 E350,Mercedes-Benz,E-Class,Verified,EPA/NHTSA government records for the canonical model,E-Class designations; E200 was not a US designation but the E-Class itself is fully US-verified.
+Mercedes Benz,E300 E400,Mercedes-Benz,E-Class,Verified,EPA/NHTSA government records for the canonical model,E-Class designations.
+Mercedes Benz,E550 E350,Mercedes-Benz,E-Class,Verified,EPA/NHTSA government records for the canonical model,E-Class designations.
+Mercedes Benz,GL350 GL450,Mercedes-Benz,GL-Class,Verified,EPA/NHTSA government records for the canonical model,GL-Class designations.
+Mercedes Benz,GLE330d GLE350 GLE400 GLE43AMG,Mercedes-Benz,GLE-Class,Verified,EPA/NHTSA government records for the canonical model,Grouped designations resolve to the GLE-Class; 'GLE330d' is not a known US variant (GLE300d/GLE350d exist) - flagged separately in the validation review file.
+Mercedes Benz,GLE350 450,Mercedes-Benz,GLE-Class,Verified,EPA/NHTSA government records for the canonical model,GLE-Class designations.
+Mercedes Benz,GLS350d GLS450,Mercedes-Benz,GLS-Class,Verified,EPA/NHTSA government records for the canonical model,GLS-Class designations.
+Mercedes Benz,R230 SL500,Mercedes-Benz,SL-Class,Verified,EPA/NHTSA government records for the canonical model,R230 is the SL-Class chassis code.
+Mercedes Benz,SL300 SL320 SL500 SL600,Mercedes-Benz,SL-Class,Verified,EPA/NHTSA government records for the canonical model,SL-Class designations; SL300 was not a US designation but the SL-Class itself is fully US-verified.
+Toyota,Tundra Sequoia,Toyota,Tundra,Verified,EPA/NHTSA government records for the canonical model,Grouped platform-mates; both exist as standalone models.
+Toyota,Tundra Sequoia,Toyota,Sequoia,Verified,EPA/NHTSA government records for the canonical model,Grouped platform-mates; both exist as standalone models.

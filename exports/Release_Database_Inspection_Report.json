@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-07-18T12:56:16.822Z",
+  "database": "data/catalog-v5.1.db",
+  "sizeMB": 16.3,
+  "sha256": "d9ba81eeeae17084041a0668e0c380b7e2508850e03beedd677b560728764db8",
+  "canonicalCounts": {
+    "makes": 76,
+    "models": 1798,
+    "model_years": 15594,
+    "vehicle_hierarchy_values": 390,
+    "hierarchy_value_years": 2504,
+    "vehicle_configuration_values": 6859,
+    "configuration_value_years": 43465,
+    "aliases": 206,
+    "grouped_model_relationships": 119
+  },
+  "migrations": [
+    "002_v2_submodels",
+    "003_review_submodel_uniqueness",
+    "004_v3_hierarchy_configuration_split",
+    "005_v5_standardization_workspace",
+    "006_canonical_readonly_guard",
+    "007_v51_hardening"
+  ],
+  "checks": [
+    {
+      "name": "Contains all canonical Version 4 records",
+      "ok": true,
+      "detail": "{\"makes\":76,\"models\":1798,\"model_years\":15594,\"vehicle_hierarchy_values\":390,\"hierarchy_value_years\":2504,\"vehicle_configuration_values\":6859,\"configuration_value_years\":43465,\"aliases\":206,\"grouped_model_relationships\":119}"
+    },
+    {
+      "name": "Contains all Version 5.1 schema objects",
+      "ok": true,
+      "detail": "all present"
+    },
+    {
+      "name": "All migrations applied without error",
+      "ok": true,
+      "detail": "002_v2_submodels, 003_review_submodel_uniqueness, 004_v3_hierarchy_configuration_split, 005_v5_standardization_workspace, 006_canonical_readonly_guard, 007_v51_hardening"
+    },
+    {
+      "name": "No benchmark projects",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "No validator projects",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "No project rows at all (clean release database)",
+      "ok": true,
+      "detail": "projects=0"
+    },
+    {
+      "name": "Canonical read-only triggers present",
+      "ok": true,
+      "detail": "27 triggers"
+    },
+    {
+      "name": "Canonical catalog is locked in the shipped database",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PRAGMA integrity_check passes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Foreign-key check passes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Clean WAL checkpoint (no pending WAL data)",
+      "ok": true,
+      "detail": "journal_mode=delete, wal bytes=0"
+    }
+  ],
+  "status": "PASS",
+  "Packaged Database Verification": {
+    "performedAt": "2026-07-19T07:10:27.412Z",
+    "source": "Extracted from the final release ZIP, not the development directory",
+    "zip": "US-Vehicle-Catalog-App-v5.1.zip",
+    "zipSha256": "adc0cb7758a5fb86d234915c959ca284563425d9be1feb516c43767172c8740d",
+    "packagedDatabase": {
+      "path": "data/catalog-v5.1.db",
+      "bytes": 17121280,
+      "megabytes": 16.33,
+      "sha256": "75cf47bcadd486386f8589893bd2c34bb0dd8584ffd61ffdb6f3e28cbd4b5cfd"
+    },
+    "canonicalCounts": {
+      "makes": 76,
+      "models": 1798,
+      "model_years": 15594,
+      "vehicle_hierarchy_values": 390,
+      "hierarchy_value_years": 2504,
+      "vehicle_configuration_values": 6859,
+      "configuration_value_years": 43465,
+      "aliases": 206,
+      "grouped_model_relationships": 119
+    },
+    "workspaceCounts": {
+      "standardization_projects": 0,
+      "standardization_rows": 0,
+      "standardization_changes": 0,
+      "project_exports": 0,
+      "project_value_mappings": 0,
+      "project_deletions": 0,
+      "security_events": 0,
+      "mapping_templates": 0
+    },
+    "migrations": [
+      "002_v2_submodels",
+      "003_review_submodel_uniqueness",
+      "004_v3_hierarchy_configuration_split",
+      "005_v5_standardization_workspace",
+      "006_canonical_readonly_guard",
+      "007_v51_hardening"
+    ],
+    "triggerCount": 27,
+    "checks": [
+      {
+        "name": "The packaged ZIP contains a release database",
+        "ok": true,
+        "detail": "C:\\Users\\Asus\\Car Make Model\\catalog-app\\exports\\_packaged_db_check\\US-Vehicle-Catalog-App-v5.1\\data\\catalog-v5.1.db"
+      },
+      {
+        "name": "No WAL or SHM sidecar is packaged",
+        "ok": true,
+        "detail": "none"
+      },
+      {
+        "name": "PRAGMA integrity_check returns ok",
+        "ok": true,
+        "detail": "ok"
+      },
+      {
+        "name": "PRAGMA foreign_key_check reports no violations",
+        "ok": true,
+        "detail": "0 violation(s)"
+      },
+      {
+        "name": "All Version 4 canonical counts match exactly",
+        "ok": true,
+        "detail": "{\"makes\":76,\"models\":1798,\"model_years\":15594,\"vehicle_hierarchy_values\":390,\"hierarchy_value_years\":2504,\"vehicle_configuration_values\":6859,\"configuration_value_years\":43465,\"aliases\":206,\"grouped_model_relationships\":119}"
+      },
+      {
+        "name": "The packaged database contains zero standardization projects",
+        "ok": true,
+        "detail": "0"
+      },
+      {
+        "name": "The packaged database contains zero standardization rows",
+        "ok": true,
+        "detail": "0"
+      },
+      {
+        "name": "The packaged database contains zero project changes and mappings",
+        "ok": true,
+        "detail": "{\"changes\":0,\"mappings\":0,\"deletions\":0}"
+      },
+      {
+        "name": "The packaged database contains zero generated export records",
+        "ok": true,
+        "detail": "0"
+      },
+      {
+        "name": "No benchmark or validator data exists in the packaged database",
+        "ok": true,
+        "detail": "all workspace tables empty"
+      },
+      {
+        "name": "All required migrations are applied",
+        "ok": true,
+        "detail": "002_v2_submodels, 003_review_submodel_uniqueness, 004_v3_hierarchy_configuration_split, 005_v5_standardization_workspace, 006_canonical_readonly_guard, 007_v51_hardening"
+      },
+      {
+        "name": "Read-only triggers protect every canonical table",
+        "ok": true,
+        "detail": "27 triggers across 9 tables"
+      },
+      {
+        "name": "All Version 5.1 schema objects exist",
+        "ok": true,
+        "detail": "complete"
+      },
+      {
+        "name": "The packaged database is self-contained (no sidecar needed to recover data)",
+        "ok": true,
+        "detail": "journal_mode=wal, canonical rows readable with no -wal present"
+      }
+    ],
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "version": "V5.1",
+  "generatedAt": "2026-07-19T07:09:45Z",
+  "database": "C:\\Users\\Asus\\Car Make Model\\catalog-app\\data\\catalog-v5.1.db",
+  "checks": [
+    {
+      "name": "Version 4 canonical hashes remain unchanged",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Canonical tables are unchanged in the release database",
+      "ok": true,
+      "detail": "{\"makes\": 76, \"models\": 1798, \"model_years\": 15594, \"vehicle_hierarchy_values\": 390, \"hierarchy_value_years\": 2504, \"vehicle_configuration_values\": 6859, \"configuration_value_years\": 43465, \"aliases\": 206, \"grouped_model_relationships\": 119}"
+    },
+    {
+      "name": "Canonical tables reject writes (SQLite triggers)",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Canonical unlock is confined to the catalog importers",
+      "ok": true,
+      "detail": "4 call site(s): ['importer.ts', 'importer_v2.ts', 'importer_v3.ts', 'importer_v4.ts']"
+    },
+    {
+      "name": "Release database inspection passed",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Release database is pristine (no benchmark/validator/user projects)",
+      "ok": true,
+      "detail": "projects=0 rows=0"
+    },
+    {
+      "name": "Release database passes integrity check and has a clean WAL",
+      "ok": true,
+      "detail": "integrity=ok"
+    },
+    {
+      "name": "Large-file Fixture A (100,000 x 100) passes",
+      "ok": true,
+      "detail": "100000x100 peakRSS=1130.4MB"
+    },
+    {
+      "name": "Large-file Fixture B (250,000 x 20) passes",
+      "ok": true,
+      "detail": "250000x20 peakRSS=929.9MB"
+    },
+    {
+      "name": "Performance report exists in both JSON and CSV",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Backup and restore round trip passed",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Application starts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Crash recovery repairs interrupted jobs and sweeps partial files",
+      "ok": true,
+      "detail": "status=Failed state=Interrupted during processing and the uploaded source file is no longer available; the fil strayRemoved=True"
+    },
+    {
+      "name": "Server binds to localhost only by default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Security headers are applied",
+      "ok": true,
+      "detail": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src"
+    },
+    {
+      "name": "Cross-origin requests are refused",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Formula-injection protection works",
+      "ok": true,
+      "detail": "Enabled"
+    },
+    {
+      "name": "Malicious/mismatched workbooks are rejected",
+      "ok": true,
+      "detail": "['bomb.xlsx', 'macro.xlsm', 'fake.xlsx']"
+    },
+    {
+      "name": "File paths remain confined to the application directories",
+      "ok": true,
+      "detail": "display=escape.csv"
+    },
+    {
+      "name": "Project deletion previews, deletes and leaves canonical records intact",
+      "ok": true,
+      "detail": "rows previewed=2 canonical {'makes': 76, 'models': 1798} -> {'makes': 76, 'models': 1798}"
+    },
+    {
+      "name": "Deletion is audited and temporary files are managed",
+      "ok": true,
+      "detail": "1 deletion record(s)"
+    },
+    {
+      "name": "Validator leaves no temporary working files behind",
+      "ok": true,
+      "detail": "C:\\Users\\Asus\\AppData\\Local\\Temp\\v51-validate-xyr_m3hr"
+    },
+    {
+      "name": "The application reports a local-only bind address",
+      "ok": true,
+      "detail": "{\"summary\": \"http://127.0.0.1:4321 (local machine only)\", \"bindAddress\": \"127.0.0.1\", \"port\": 4321, \"allowLanAccess\": false, \"reachableFrom\": \"This machine only (loopback)\"}"
+    },
+    {
+      "name": "Production build passes",
+      "ok": true,
+      "detail": "PASS - tsc --noEmit clean, vite build 54 modules, 249.85 kB JS / 5.53 kB CSS"
+    },
+    {
+      "name": "Automated tests pass",
+      "ok": true,
+      "detail": "PASS - 93/93 vitest tests in 44.12s (catalog 18, hardening 38, standardization 37)"
+    },
+    {
+      "name": "Windows scripts remain path-independent",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Versions 1-5 remain preserved (databases, backups, release ZIPs)",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Every hardening change is documented",
+      "ok": true,
+      "detail": "[]"
+    }
+  ],
+  "cleanWindowsInstallation": "Partially Verified \u2014 Clean-Room Directory Only",
+  "status": "PASS"
+}

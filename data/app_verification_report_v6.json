@@ -1,0 +1,196 @@
+{
+  "version": "V6",
+  "module": "Title Optimizer",
+  "generatedAt": "2026-07-19T08:33:38Z",
+  "database": "C:\\Users\\Asus\\Car Make Model\\catalog-app\\data\\catalog-v6.db",
+  "maxCharacters": 80,
+  "characterCounting": "Unicode code points",
+  "checks": [
+    {
+      "name": "Version 4 canonical hashes remain unchanged",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Canonical counts are unchanged in catalog-v6.db",
+      "ok": true,
+      "detail": "{\"makes\": 76, \"models\": 1798, \"model_years\": 15594, \"vehicle_hierarchy_values\": 390, \"hierarchy_value_years\": 2504, \"vehicle_configuration_values\": 6859, \"configuration_value_years\": 43465, \"aliases\": 206, \"grouped_model_relationships\": 119}"
+    },
+    {
+      "name": "Canonical tables still reject writes",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "All seven Title Optimizer tables exist",
+      "ok": true,
+      "detail": "all present"
+    },
+    {
+      "name": "The 27 canonical protection triggers are intact",
+      "ok": true,
+      "detail": "27"
+    },
+    {
+      "name": "The application starts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "The default title limit is 80 Unicode characters",
+      "ok": true,
+      "detail": "{\"fields\": [\"Title\", \"Year\", \"Year Range\", \"Make\", \"Model\", \"Sub-model\", \"Trim\", \"Material\", \"Color\", \"Variation\", \"Product Type\", \"Position\", \"Side\", \"Row\", \"Q"
+    },
+    {
+      "name": "Only Title is mandatory",
+      "ok": true,
+      "detail": "['Title']"
+    },
+    {
+      "name": "The project processes every row",
+      "ok": true,
+      "detail": "{\"ok\": true, \"processed\": 6, \"byStatus\": {\"Optimized\": 1, \"Already Within Limit\": 2, \"Unable to Reach Limit\": 2, \"Manual Review Required\": 1}}"
+    },
+    {
+      "name": "No title exceeds 80 characters unless explicitly flagged",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "No title is hard-truncated",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Leather is never abbreviated",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Genuine Leather is preserved when confirmed",
+      "ok": true,
+      "detail": "2 rows, lost []"
+    },
+    {
+      "name": "Required fields remain present (full or approved abbreviation)",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "An invalid Make-Model relationship blocks automatic optimization",
+      "ok": true,
+      "detail": "[(4, 'Manual Review Required')]"
+    },
+    {
+      "name": "Unapproved hierarchy values are never added automatically",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Audit exports contain every documented audit column",
+      "ok": true,
+      "detail": "22 columns"
+    },
+    {
+      "name": "Audit exports preserve the original Title column",
+      "ok": true,
+      "detail": "source Title column unchanged"
+    },
+    {
+      "name": "Audit exports also restate the original title",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Character counts match the exported titles",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Original character counts match the original titles",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Replacement exports keep the original column set",
+      "ok": true,
+      "detail": "['Item ID', 'SKU', 'Title', 'Year', 'Make', 'Model', 'Trim', 'Material', 'Color', 'Variation', 'Product Type', 'Position', 'Side', 'Quantity']"
+    },
+    {
+      "name": "Replacement exports modify only the mapped Title column",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Item ID and SKU are unchanged",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Source row order is unchanged",
+      "ok": true,
+      "detail": "['A-1', 'A-2', 'A-3', 'A-4', 'A-5', 'A-6']"
+    },
+    {
+      "name": "Formula-injection protection remains active",
+      "ok": true,
+      "detail": "injected title neutralised in the replacement export"
+    },
+    {
+      "name": "Reported totals match the database",
+      "ok": true,
+      "detail": "rows 6/6, removed 121/121"
+    },
+    {
+      "name": "Every applied rule is recorded",
+      "ok": true,
+      "detail": "20 change records"
+    },
+    {
+      "name": "The title optimization report is produced",
+      "ok": true,
+      "detail": "17599 bytes"
+    },
+    {
+      "name": "Reprocessing is idempotent",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "The Version 5.1 standardization workspace still works",
+      "ok": true,
+      "detail": "standardization export produced canonical values"
+    },
+    {
+      "name": "The existing catalog pages still work",
+      "ok": true,
+      "detail": "{\"makes\": 76, \"models\": 1798, \"submodels\": 10, \"trims\": 358, \"series\": 19, \"editions\": 3, \"generations\": 0, \"chassis\": 0"
+    },
+    {
+      "name": "The production build passes",
+      "ok": true,
+      "detail": "PASS - tsc --noEmit clean, vite build 59 modules, 271.04 kB JS"
+    },
+    {
+      "name": "The automated tests pass",
+      "ok": true,
+      "detail": "PASS - 131/131 vitest tests (catalog 18, hardening 38, standardization 37, title 38)"
+    },
+    {
+      "name": "Versions 1 to 5.1 remain preserved",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "The Version 5.1 release ZIP and database are byte-identical",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Every Title Optimizer guide is present",
+      "ok": true,
+      "detail": "[]"
+    }
+  ],
+  "status": "PASS"
+}

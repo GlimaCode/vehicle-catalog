@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-07-18T13:17:03.657Z",
+  "application": "C:\\Users\\Asus\\clean-install-test\\Vehículo Catálogo Prüfung (v5.1)\\US-Vehicle-Catalog-App-v5.1",
+  "steps": [
+    {
+      "step": 3,
+      "name": "start-app.bat server starts and serves the catalog API",
+      "ok": true,
+      "detail": "Catalog app listening on http://127.0.0.1:4318 (local machine only) (serving built frontend)"
+    },
+    {
+      "step": "3b",
+      "name": "Binds to 127.0.0.1 only (local machine only)",
+      "ok": true,
+      "detail": "Catalog app listening on http://127.0.0.1:4318 (local machine only) (serving built frontend)"
+    },
+    {
+      "step": 4,
+      "name": "Upload the sample CSV",
+      "ok": true,
+      "detail": "status=200 rows=10"
+    },
+    {
+      "step": 5,
+      "name": "Upload the sample XLSX",
+      "ok": true,
+      "detail": "status=200 rows=10"
+    },
+    {
+      "step": 6,
+      "name": "Process the CSV file",
+      "ok": true,
+      "detail": "rows=10 outcome=Review Required"
+    },
+    {
+      "step": 6,
+      "name": "Process the XLSX file",
+      "ok": true,
+      "detail": "rows=10 outcome=Review Required"
+    },
+    {
+      "step": 7,
+      "name": "Review and resolve a cross-brand conflict",
+      "ok": true,
+      "detail": "row 5 field Model"
+    },
+    {
+      "step": 8,
+      "name": "Export standardized CSV and XLSX",
+      "ok": true,
+      "detail": "csv=3481B xlsx=8680B protection=null"
+    },
+    {
+      "step": 9,
+      "name": "Generate a change report",
+      "ok": true,
+      "detail": "16352 bytes"
+    },
+    {
+      "step": 10,
+      "name": "Create a database backup",
+      "ok": true,
+      "detail": "C:\\Users\\Asus\\clean-install-test\\Vehículo Catálogo Prüfung (v5.1)\\US-Vehicle-Catalog-App-v5.1\\backups\\catalog-2026-07-18T13-17-02-012Z.db"
+    },
+    {
+      "step": 11,
+      "name": "Stop and restart the application",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "step": 12,
+      "name": "Project history remains available after restart",
+      "ok": true,
+      "detail": "2 project(s)"
+    }
+  ],
+  "status": "PASS"
+}

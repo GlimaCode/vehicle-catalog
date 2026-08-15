@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-07-19T06:36:50.243Z",
+  "unitBehaviour": [
+    {
+      "case": "equals",
+      "before": "=cmd|' /C calc'!A0",
+      "after": "'=cmd|' /C calc'!A0",
+      "neutralized": true,
+      "expected": "neutralized",
+      "ok": true
+    },
+    {
+      "case": "plus",
+      "before": "+1+1",
+      "after": "'+1+1",
+      "neutralized": true,
+      "expected": "neutralized",
+      "ok": true
+    },
+    {
+      "case": "minus (text)",
+      "before": "-2+3+cmd|' /C calc'!A0",
+      "after": "'-2+3+cmd|' /C calc'!A0",
+      "neutralized": true,
+      "expected": "neutralized",
+      "ok": true
+    },
+    {
+      "case": "at",
+      "before": "@SUM(1+1)*cmd|' /C calc'!A0",
+      "after": "'@SUM(1+1)*cmd|' /C calc'!A0",
+      "neutralized": true,
+      "expected": "neutralized",
+      "ok": true
+    },
+    {
+      "case": "tab",
+      "before": "\t=1+1",
+      "after": "'\t=1+1",
+      "neutralized": true,
+      "expected": "neutralized",
+      "ok": true
+    },
+    {
+      "case": "carriage return",
+      "before": "\r=1+1",
+      "after": "'\r=1+1",
+      "neutralized": true,
+      "expected": "neutralized",
+      "ok": true
+    },
+    {
+      "case": "negative integer",
+      "before": "-5",
+      "after": "-5",
+      "neutralized": false,
+      "expected": "unchanged",
+      "ok": true
+    },
+    {
+      "case": "negative decimal",
+      "before": "-12.5",
+      "after": "-12.5",
+      "neutralized": false,
+      "expected": "unchanged",
+      "ok": true
+    },
+    {
+      "case": "negative currency",
+      "before": "-$1,250.00",
+      "after": "-$1,250.00",
+      "neutralized": false,
+      "expected": "unchanged",
+      "ok": true
+    },
+    {
+      "case": "exponent",
+      "before": "-1.5e6",
+      "after": "-1.5e6",
+      "neutralized": false,
+      "expected": "unchanged",
+      "ok": true
+    },
+    {
+      "case": "percent",
+      "before": "-3.5%",
+      "after": "-3.5%",
+      "neutralized": false,
+      "expected": "unchanged",
+      "ok": true
+    },
+    {
+      "case": "date-ish",
+      "before": "-2020/01",
+      "after": "-2020/01",
+      "neutralized": false,
+      "expected": "unchanged",
+      "ok": true
+    },
+    {
+      "case": "plain number",
+      "before": "42",
+      "after": "42",
+      "neutralized": false,
+      "expected": "unchanged",
+      "ok": true
+    }
+  ],
+  "trustedHyperlinks": {
+    "case": "trusted application hyperlink field",
+    "fieldChecked": "Primary Source URL",
+    "isTrusted": true,
+    "neutralizedWhenTrusted": false,
+    "ok": true
+  },
+  "examples": [
+    {
+      "leadingCharacter": "equals",
+      "before": "=cmd|' /C calc'!A0",
+      "after": "'=cmd|' /C calc'!A0"
+    },
+    {
+      "leadingCharacter": "plus",
+      "before": "+1+1",
+      "after": "'+1+1"
+    },
+    {
+      "leadingCharacter": "minus (text)",
+      "before": "-2+3+cmd|' /C calc'!A0",
+      "after": "'-2+3+cmd|' /C calc'!A0"
+    },
+    {
+      "leadingCharacter": "at",
+      "before": "@SUM(1+1)*cmd|' /C calc'!A0",
+      "after": "'@SUM(1+1)*cmd|' /C calc'!A0"
+    },
+    {
+      "leadingCharacter": "tab",
+      "before": "\t=1+1",
+      "after": "'\t=1+1"
+    },
+    {
+      "leadingCharacter": "carriage return",
+      "before": "\r=1+1",
+      "after": "'\r=1+1"
+    }
+  ],
+  "outputs": {
+    "csv": {
+      "produced": true,
+      "riskyCellsLeft": [],
+      "neutralizedCells": 24,
+      "hasProtectionColumn": true,
+      "negativesIntact": true
+    },
+    "xlsx": {
+      "produced": true,
+      "formulaCells": [],
+      "unsafeTextCells": [],
+      "riskyCellsForcedToText": 13,
+      "neutralizedCells": 24
+    },
+    "changeReport": {
+      "produced": true,
+      "sheets": 9,
+      "formulaCells": [],
+      "unsafeTextCells": []
+    },
+    "reviewOnly": {
+      "produced": true,
+      "formulaCells": [],
+      "unsafeTextCells": []
+    },
+    "valueMappingCsv": {
+      "produced": true,
+      "riskyCellsLeft": []
+    }
+  },
+  "status": "PASS"
+}
