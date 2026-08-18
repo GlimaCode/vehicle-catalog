@@ -260,3 +260,22 @@ what remains unverified.
 - `REVIEW_WORKFLOW_GUIDE.md` – reviewing and deciding
 - `PROJECT_MAPPING_GUIDE.md` – project mappings vs canonical aliases
 - `LARGE_FILE_PROCESSING_GUIDE.md` – large-file behaviour and benchmarks
+
+## License
+
+Released under the [MIT License](LICENSE) — free to use, modify, and distribute,
+including commercially, provided the copyright notice is retained. Provided as
+is, without warranty.
+
+## Team
+
+Built and maintained by:
+
+- [Ali Ahmadi](https://github.com/aliahmadi1382)
+- [Mostafa Taghipour](https://github.com/MoStafaMTP)
+
+---
+
+<p align="center">
+  <sub>A <a href="https://glimacode.com">GlimaCode</a> project — a two-developer web studio.</sub>
+</p>
