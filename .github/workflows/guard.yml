@@ -1,0 +1,38 @@
+name: Guard
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  no-secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Cheap, deterministic guards against the mistakes that actually happen.
+      - name: Refuse committed .env files
+        run: |
+          if git ls-files | grep -E '(^|/)\.env$|(^|/)\.env\.(local|production)$'; then
+            echo "::error::A real .env file is tracked. Only .env.example may be committed."
+            exit 1
+          fi
+          echo "No .env files tracked."
+
+      - name: Refuse tool configuration directories
+        run: |
+          if git ls-files | grep -Ei '(^|/)\.(claude|cursor|aider)(/|$)'; then
+            echo "::error::A tool configuration directory is tracked."
+            exit 1
+          fi
+          echo "No tool configuration directories tracked."
+
+      - name: Refuse committed node_modules
+        run: |
+          if git ls-files | grep -E '(^|/)node_modules/'; then
+            echo "::error::node_modules is tracked. Add it to .gitignore."
+            exit 1
+          fi
+          echo "node_modules is not tracked."
