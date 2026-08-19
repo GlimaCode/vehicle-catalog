@@ -36,3 +36,29 @@ jobs:
             exit 1
           fi
           echo "node_modules is not tracked."
+
+      # Tool directories were already refused above; these two close the
+      # remaining gap, where a tool name is left behind in source or docs.
+      - name: Refuse tool instruction files
+        run: |
+          if git ls-files | grep -Ei '(^|/)(AGENTS|CLAUDE|COPILOT|GEMINI)\.md$'; then
+            echo "::error::A tool instruction file is tracked."
+            exit 1
+          fi
+          echo "No tool instruction files tracked."
+
+      # Two files are exempt because their job is to name the things being
+      # excluded: this workflow, and .gitignore. Everywhere else — source,
+      # comments, documentation — the names must not appear.
+      - name: Refuse tool name references in tracked files
+        run: |
+          MATCHES=$(git ls-files \
+            | grep -vE '^(\.github/workflows/guard\.yml|\.gitignore)$' \
+            | xargs -r grep -lEi 'claude|anthropic|chatgpt|openai|copilot' \
+            || true)
+          if [ -n "$MATCHES" ]; then
+            echo "::error::Tool names found in the following tracked files:"
+            echo "$MATCHES"
+            exit 1
+          fi
+          echo "No tool name references in tracked files."
